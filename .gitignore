@@ -1,0 +1,9 @@
+# Ignorar ejecutables y archivos objeto
+*.exe
+*.o
+*.obj
+*.map
+
+# Incluir los programas de turbo ensamblador
+!tasm.exe
+!tlink.exe
