@@ -7,3 +7,4 @@
 # Incluir los programas de turbo ensamblador
 !tasm.exe
 !tlink.exe
+!DOSBox.exe
