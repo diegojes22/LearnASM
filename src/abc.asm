@@ -25,7 +25,7 @@ main proc
         mov al, cl
         add al, 64      ; Para pasar de un valor de 1 a 26, a un valor de 65 a 90, es decir, de A a Z
 
-        mov ah, 09h     ; Funcion para imprimir un caracter: llammosla PRINT CHAR
+        mov ah, 09h     ; Funcion para imprimir un caracter: llamemosla PRINT CHAR
         mov bh, 0
         mov bl, 0Ah     ; Cambiemos el color a un verde brillante
         int 10h

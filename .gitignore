@@ -8,3 +8,6 @@
 !tasm.exe
 !tlink.exe
 !DOSBox.exe
+
+*.ignore.asm
+test.asm
