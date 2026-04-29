@@ -169,3 +169,10 @@ INT  10h
 > **Nota**<br>
 > La función `09h` **no avanza el cursor** automáticamente después de imprimir. Si necesitas continuar escribiendo en la siguiente posición, debes mover el cursor manualmente con `02h`.<br>
 > El atributo de `BL` sigue el mismo formato que `BH` en scroll: `[fondo(4 bits)][texto(4 bits)]`.
+
+
+-----
+
+## Fuentes consultadas
+- https://academia-lab.com/enciclopedia/int-10h/
+- https://www.wikiciencias.net/funciones-de-interrupcion-bios-y-dos-codigos-y-ejemplos/
