@@ -74,7 +74,7 @@ main proc
     dec y2
 
     ; Pausa
-    mov cx, 08FFh
+    mov cx, 00FFh
     pausa1:
         push cx
         mov cx, 0FFh
