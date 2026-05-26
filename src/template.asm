@@ -21,4 +21,5 @@ main proc
     mov ax, 4C00h
     int 21h
 
-end
+endp
+end main
